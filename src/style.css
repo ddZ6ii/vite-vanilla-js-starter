@@ -1,0 +1,73 @@
+/* ########################################
+############# CUSTOM FONTS ################
+######################################## */
+
+/* ########################################
+############# STYLE GUIDE #################
+######################################## */
+
+/* ########################################
+############# RESET #######################
+######################################## */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+/* ########################################
+############# BASIC STYLING ###############
+######################################## */
+
+/* ########################################
+############# UTILITIES ###################
+######################################## */
+/* Hide visually but preserve accessibility. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  /*  Defines a rectangle at the specified inset distances from each side of the reference box. */
+  /* Similar to: clip-path: rect(0 0 0 0) */
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ########################################
+########### COMPONENT STYLING #############
+######################################## */
