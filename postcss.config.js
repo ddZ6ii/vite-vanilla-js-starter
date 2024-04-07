@@ -1,9 +1,5 @@
+import postcssNested from 'postcss-nested';
+
 export default {
-  plugins: {
-    autoprefixer: {},
-    'postcss-nested': {},
-    'postcss-uncss': {
-      html: ['./src/index.html'],
-    },
-  },
+  plugins: [postcssNested({})],
 };
