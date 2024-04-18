@@ -1,7 +1,7 @@
 {
   "name": "vite-vanilla-js-starter",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vite starter for html | css | vanilla js project",
   "author": "Denis Dezest <denis.dezest@gmail.com>",
   "repository": "git@github.com:ddZ6ii/vite-vanilla-js-starter.git",
@@ -26,9 +26,11 @@
     "eslint-plugin-import": "^2.25.2",
     "globals": "^15.0.0",
     "jsonc-eslint-parser": "^2.4.0",
+    "path": "^0.12.7",
     "postcss": "^8.4.35",
     "postcss-nested": "^6.0.1",
     "prettier": "^3.2.5",
+    "url": "^0.11.3",
     "vite": "^5.1.4",
     "vite-plugin-minify": "^1.5.2",
     "vite-plugin-purgecss-updated-v5": "^1.2.0"
